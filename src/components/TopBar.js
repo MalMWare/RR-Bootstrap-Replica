@@ -5,7 +5,7 @@ import Button from 'react-bootstrap/Button'
 function TopBar() {
     return <Navbar bg="light" expand="lg" >
     <Navbar.Brand style={{margin: "5px 0 0 20px"}} href="#home">
-        <img src="./Navbar-image.png" alt='instacart logo'/> 
+        <img src="./Navbar-image.png" alt='instacart logo' height='25px'/> 
     </Navbar.Brand>
     <Navbar.Toggle aria-controls="basic-navbar-nav" />
     <Navbar.Collapse id="basic-navbar-nav">

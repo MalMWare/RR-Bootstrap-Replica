@@ -11,3 +11,16 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.background {
+  background-repeat: no-repeat;
+  position: absolute;
+  z-index: -1;
+  height: 100%;
+  width: 100%;
+  background-position: right center;
+  background-image: url(../../public/assets/instacart-background.webp);
+  background-color: #deedd6;
+  max-height: 220px;
+  background-size: auto;
+}
