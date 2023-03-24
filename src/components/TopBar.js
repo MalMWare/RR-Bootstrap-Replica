@@ -1,21 +1,22 @@
 import Navbar from 'react-bootstrap/Navbar'
 import Nav from 'react-bootstrap/Nav'
 import Button from 'react-bootstrap/Button'
+import '../css/navbar.css'
 
 function TopBar() {
-    return <Navbar bg="light" expand="lg" >
-    <Navbar.Brand style={{margin: "5px 0 0 20px"}} href="#home">
-        <img src="./Navbar-image.png" alt='instacart logo' height='25px'/> 
-    </Navbar.Brand>
-    <Navbar.Toggle aria-controls="basic-navbar-nav" />
-    <Navbar.Collapse id="basic-navbar-nav">
-        <Nav className="mr-auto"> 
-        </Nav>
-        <Nav>
-            <Nav.Link href="#LogIn">Log In</Nav.Link>
-            <Button variant="success">Sign Up</Button>{' '}
-        </Nav>
-    </Navbar.Collapse>
-    </Navbar>
+    return <Navbar sticky='top' bg="light" expand="lg" style={{paddingRight: '20px', alignItems: 'center'}} >
+<Navbar.Brand style={{margin: "5px 0 0 20px"}} href="#home">
+    <img src="./assets/Navbar-image.png" alt="logo" height='25px' style={{verticalAlign: 'inherit'}} />
+</Navbar.Brand>
+<Navbar.Toggle aria-controls="basic-navbar-nav" />
+<Navbar.Collapse id="basic-navbar-nav" style={{justifyContent: 'flex-end'}}>
+    <Nav className="mr-auto">
+    </Nav>
+    <Nav>
+        <Nav.Link href="#LogIn" className='log-in' style={{textAlign: 'center'}}>Log In</Nav.Link>
+        <button className="sign-up">Sign Up</button>
+    </Nav>
+</Navbar.Collapse>
+</Navbar>
 }
 export default TopBar

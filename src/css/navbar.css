@@ -1,0 +1,19 @@
+.log-in {
+    font-size: 18px !important;
+    line-height: 26px;
+    font-weight: 600 !important;
+    color: #343538 !important;
+    margin: 0 22px;
+}
+  
+.sign-up {
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 600;
+    background-color: #0AAD0A;
+    color: #FFFFFF;
+    padding: 8px 16px;
+    border-radius: 20px;
+    border: none;
+}
+

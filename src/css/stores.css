@@ -1,0 +1,56 @@
+.location-header {
+    font-size: 31px;
+    line-height: 40px;
+    font-weight: normal;
+    margin-top: 8px;
+    margin-bottom: 24px;
+    color: #343538;
+    text-align: center;
+  }
+  
+  .location-header span {
+    color: #0AAD0A;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  .store-link {
+    display: flex;
+    flex-direction: row;
+    padding: 12px;
+    margin: 20px;
+    box-sizing: border-box;
+    align-items: center;
+    height: 100%;
+    box-shadow: rgba(0,0,0,0.16) 0px 2px 8px;
+    border-radius: 12px;
+  }
+  
+  .store-image {
+    display: block;
+    height: 58px;
+    width: 58px;
+    border: 1px solid #E8E9EB;
+  }
+  
+  .store-info {
+    padding-left: 20px;
+  }
+  
+  .store-info h5 {
+    font-size: 18px;
+      line-height: 26px;
+      font-weight: 600;
+      color: #343538;
+      margin: 0;
+      overflow: hidden;
+      text-overflow: ellipsis;
+  }
+  
+  .store-info p {
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 600;
+    color: #343538;
+    margin: 0;
+  }
